@@ -3,7 +3,7 @@ const server = require('./api/server.js');
 
 
 // make the port dynamic
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 3000;
 const greeting = process.env.GREETING;
 
 server.listen(port, () => {
